@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/workpage"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!-- The main content view -->
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/workname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:textSize="30dp"
+                android:layout_marginTop="200dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:id="@+id/cph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:textSize="20dp"
+                android:layout_marginTop="240dp"
+                android:textStyle="normal|italic"
+                android:fontFamily="sans-serif-light"
+                android:textAlignment="center"
+                />
+
+        </FrameLayout>
+
+        <!-- The navigation drawer -->
+        <ListView android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:background="@color/colorPrimaryDark"
+            android:alpha="255"
+            />
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+
+</RelativeLayout>

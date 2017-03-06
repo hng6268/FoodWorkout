@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "600870854582",
+    "firebase_url": "https://foodworkout-c3c38.firebaseio.com",
+    "project_id": "foodworkout-c3c38",
+    "storage_bucket": "foodworkout-c3c38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600870854582:android:0e869b8510388676",
+        "android_client_info": {
+          "package_name": "com.example.android.foodworkout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600870854582-c5kib9epsaltungl1c1iajjohqctvhdf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.foodworkout",
+            "certificate_hash": "9dd569d5b58cbddee162ce80bfac588b3d1eb5b9"
+          }
+        },
+        {
+          "client_id": "600870854582-uh971d2dik2492dagefrngkhjl4houak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmHMgnhwGzjOkNoXAacYI2dXwU7asithw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600870854582-uh971d2dik2492dagefrngkhjl4houak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600870854582:android:875826f41b75eba4",
+        "android_client_info": {
+          "package_name": "com.example.android.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600870854582-dm337lvkib7o9i9bd29nlke1jt9jd2ah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.myapplication",
+            "certificate_hash": "9dd569d5b58cbddee162ce80bfac588b3d1eb5b9"
+          }
+        },
+        {
+          "client_id": "600870854582-uh971d2dik2492dagefrngkhjl4houak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmHMgnhwGzjOkNoXAacYI2dXwU7asithw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600870854582-uh971d2dik2492dagefrngkhjl4houak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

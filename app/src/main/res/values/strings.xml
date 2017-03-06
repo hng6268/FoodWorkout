@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FoodWorkout</string>
+    <string name="gender_Text">Gender</string>
+    <string name="work_Text">Work Style</string>
+    <string name="weight_Text">Weight</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="enter_weight">enter</string>
+    <string name="food_button">Food</string>
+    <string name="work_button">Workout</string>
+    <string name="menu">Menu</string>
+    <string name="cont_btn">Continue</string>
+
+
+
+</resources>
